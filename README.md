@@ -9,7 +9,7 @@
 The following commands are the common commands for running test. These commands are executed in the BlueOtter folder, so please cd to this folder first.
 
 * For running the whole tests
-`mvn clean test -DsuiteXmlFile=src\test\testsuite\SigninSuite.xml,src\test\testsuite\SignupSuite.xml -Dbrowser=ie && pause && allure serve`
+`mvn clean test -DsuiteXmlFile=src\test\testsuite\SigninSuite.xml,src\test\testsuite\SignupSuite.xml && pause && allure serve`
 
 * For running the sign in tests
 `mvn clean test -DsuiteXmlFile=src\test\testsuite\SigninSuite.xml -Dbrowser=ie && pause && allure serve`
