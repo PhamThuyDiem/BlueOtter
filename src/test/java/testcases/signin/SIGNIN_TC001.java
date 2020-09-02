@@ -21,7 +21,7 @@ public class SIGNIN_TC001 extends BaseTest {
 
 		Log.info("Step #1: Click Login/Signup button");
 		homePage.clickLogInSignUpButton();
-
+		
 		Log.info("Step #2: Click Signin with Email button");
 		loginWithPage.clickSigninWithEmailButton();
 

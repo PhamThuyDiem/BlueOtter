@@ -1,0 +1,1 @@
+mvn clean test -DsuiteXmlFile=src\test\testsuite\SigninSuite.xml,src\test\testsuite\SignupSuite.xml && pause && allure serve
