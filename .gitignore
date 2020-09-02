@@ -1,0 +1,11 @@
+.project
+.prefs
+test-output
+.settings
+target
+allure-results
+.metadata
+*.iml
+.classpath
+.idea
+allure-report/*

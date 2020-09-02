@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Signin Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Signin">
+        <classes>
+            <class name="testcases.signin.SIGNIN_TC001"/>
+            <class name="testcases.signin.SIGNIN_TC002"/>
+            <class name="testcases.signin.SIGNIN_TC003"/>
+        </classes>
+    </test>
+</suite>
